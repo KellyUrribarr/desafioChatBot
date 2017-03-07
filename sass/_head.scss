@@ -1,0 +1,33 @@
+.box-inicial {
+    background: $color-primario;
+
+        p {
+            text-align: center;
+            color: $color-secundario;
+            margin: 0px auto;
+            font-size: 1.7em;
+        }
+
+}
+
+.fa{
+    width: $width-principal;
+    height: $height-secundario;
+    color: $color-secundario;
+    font-size: $font-size-iconos !important;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.fa-paper-plane{
+    color: #000;
+    padding-top: 1.2rem;
+    cursor: pointer;
+}
+
+bottom:focus{
+    background: #fff;
+}
+
+
