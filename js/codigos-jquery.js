@@ -1,13 +1,13 @@
 /*
-Error: Invalid CSS after "var cadena, cod": expected selector, was ";"
+Error: Invalid CSS after "var cadena": expected selector, was ";"
         on line 1 of sass/materialize-src/js/bin/materialize.min.js
 
-1: var cadena, cod;
-2: var elemento = RegExp("(TIENE|TIENES|TENGO|TENES|TEN├ëS)");
-3: var saludo = RegExp("(HOLA)");
-4: var conversacion = RegExp("(BIEN Y TU?|BIEN Y VOS?|BIEN Y USTED?)");
-5: var edad =/A├æOS/;
-6: 
+1: var cadena;
+2: var cod;
+3: var tiempo;
+4: var elemento = RegExp("(TIENE|TIENES|TENGO|TENES|TEN├ëS)");
+5: var saludo = RegExp("(HOLA)");
+6: var conversacion = RegExp("(BIEN Y TU?|BIEN Y VOS?|BIEN Y USTED?)");
 
 Backtrace:
 sass/materialize-src/js/bin/materialize.min.js:1
@@ -50,4 +50,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"var cadena, cod\": expected selector, was \";\"\A         on line 1 of sass/materialize-src/js/bin/materialize.min.js\A \A 1: var cadena, cod;\A 2: var elemento = RegExp(\"(TIENE|TIENES|TENGO|TENES|TEN├ëS)\");\A 3: var saludo = RegExp(\"(HOLA)\");\A 4: var conversacion = RegExp(\"(BIEN Y TU?|BIEN Y VOS?|BIEN Y USTED?)\");\A 5: var edad =/A├æOS/;\A 6: "; }
+  content: "Error: Invalid CSS after \"var cadena\": expected selector, was \";\"\A         on line 1 of sass/materialize-src/js/bin/materialize.min.js\A \A 1: var cadena;\A 2: var cod;\A 3: var tiempo;\A 4: var elemento = RegExp(\"(TIENE|TIENES|TENGO|TENES|TEN├ëS)\");\A 5: var saludo = RegExp(\"(HOLA)\");\A 6: var conversacion = RegExp(\"(BIEN Y TU?|BIEN Y VOS?|BIEN Y USTED?)\");"; }
