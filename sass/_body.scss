@@ -1,5 +1,11 @@
 .box{
-    min-height: 36em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    padding: 10px;
+    background:#CBEDFF;
+    z-index: 2000;
 }
 
 .navbar-default {
@@ -38,7 +44,13 @@ textarea.materialize-textarea {
 
 #enviar{
 	position: relative;
-	margin: 0.5rem 3.0rem;
+    margin-top: 1.4rem;
 }
 
-
+.input-field{
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    background-color: #fff;
+}

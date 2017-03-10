@@ -26,15 +26,10 @@
 .btn-large[disabled],
 .btn-flat[disabled] {
   pointer-events: none;
-  background-color: $button-disabled-background !important;
   box-shadow: none;
   color: $button-disabled-color !important;
   cursor: default;
 
-  &:hover {
-    background-color: $button-disabled-background !important;
-    color: $button-disabled-color !important;
-  }
 }
 
 // Shared icon styles
@@ -48,14 +43,6 @@
   i {
     font-size: 1.7rem;
     line-height: inherit;
-  }
-}
-
-// Shared focus button style
-.btn,
-.btn-floating {
-  &:focus {
-    background-color: darken($button-raised-background, 10%);
   }
 }
 
@@ -233,12 +220,6 @@ button.btn-floating {
   &:focus,
   &:active {
     background-color: transparent;
-  }
-
-  &:focus,
-  &:hover {
-    background-color: rgba(0,0,0,.1);
-    box-shadow: none;
   }
 
   &:active {

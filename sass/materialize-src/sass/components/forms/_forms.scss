@@ -5,12 +5,15 @@ select:focus {
 
 button:focus {
   outline: none;
-  background-color: $button-background-focus;
+  background-color: none;
 }
 
 label {
-  font-size: $label-font-size;
-  color: $input-border-color;
+    font-size: 0.8rem;
+    color: #9e9e9e;
+    padding-left: 20px;
+    position: relative;
+    margin: -0.4em;
 }
 
 @import 'input-fields';
